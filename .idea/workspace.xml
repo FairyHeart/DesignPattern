@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c2f6c1a-17b9-4f54-a0a8-2b0ebbc7b27b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/单列模式/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/单列模式/SingletonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/单列模式/懒汉式/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/单列模式/懒汉式/Singleton.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -11,6 +12,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -30,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/单列模式/饿汉式/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="494">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding>
                 <element signature="e#406#407#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
@@ -40,11 +45,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/单列模式/懒汉式/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+            <state relative-caret-position="639">
+              <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/单列模式/SingletonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,10 +93,10 @@
         <option value="$PROJECT_DIR$/src/com/单列模式/Singleton_饿汉式.java" />
         <option value="$PROJECT_DIR$/src/com/单列模式/Singleton.java" />
         <option value="$PROJECT_DIR$/src/com/单列模式/内部类/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/com/单列模式/SingletonTest.java" />
         <option value="$PROJECT_DIR$/src/com/单列模式/饿汉式/Singleton.java" />
         <option value="$PROJECT_DIR$/src/com/单列模式/枚举/Singleton.java" />
         <option value="$PROJECT_DIR$/src/com/单列模式/懒汉式/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/com/单列模式/SingletonTest.java" />
       </list>
     </option>
   </component>
@@ -90,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,8 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Singleton">
+  <component name="RunManager" selected="Application.SingletonTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DesignPattern" />
@@ -222,9 +246,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.Singleton" />
         <item itemvalue="Application.Singleton (1)" />
-        <item itemvalue="Application.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,18 +263,18 @@
       <option name="presentableId" value="Default" />
       <updated>1570804625577</updated>
       <workItem from="1570804627393" duration="3260000" />
-      <workItem from="1570845008434" duration="2503000" />
+      <workItem from="1570845008434" duration="2591000" />
+      <workItem from="1570855598071" duration="1459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5763000" />
+    <option name="totallyTimeSpent" value="7310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,13 +283,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32953367" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871652" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39981532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.28070176" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28070176" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -288,13 +312,6 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/单列模式/Singleton_懒汉式.java" />
     <entry file="file://$PROJECT_DIR$/src/com/单列模式/Singleton_饿汉式.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/单列模式/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/单列模式/枚举/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -315,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/单列模式/饿汉式/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="494">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="e#406#407#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
@@ -326,8 +343,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/单列模式/懒汉式/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="80" column="52" lean-forward="true" selection-start-line="80" selection-start-column="52" selection-end-line="80" selection-end-column="52" />
+        <state relative-caret-position="639">
+          <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/单列模式/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
