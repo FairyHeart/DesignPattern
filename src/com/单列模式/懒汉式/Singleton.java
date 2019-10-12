@@ -60,11 +60,11 @@ public class Singleton {
      */
     private volatile static Singleton instance4;
 
-    public static Singleton getInstance4() {
-        if (instance4 == null) {
-            synchronized (Singleton.class) {
-                if (instance4 == null) {
-                    instance4 = new Singleton();
+    public static Singleton getInstance4() {//1
+        if (instance4 == null) { //2 第一次检查
+            synchronized (Singleton.class) {//3 加锁
+                if (instance4 == null) { //4 第二次检查
+                    instance4 = new Singleton(); //5 创建对象
                 }
             }
         }
@@ -72,17 +72,24 @@ public class Singleton {
     }
 
     /**
-     * 根据java的语言规范，没有volatile是不可靠的，出现问题主要原因：
-     * （1）编译器优化了程序指令, 以加快cpu处理速度
-     * （2）多核cpu动态调整指令顺序, 以加快并行运算能力.
+     * 上述的Instance类变量是没有用volatile关键字修饰的，根据java的语言规范，没有volatile是不可靠的，会出现一个问题：在线程执行到第2行的时候，
+     * 代码读取到instance不为null时，instance引用的对象有可能没有完成初始化。 主要的原因是重排序。重排序是指编译器和处理器为了优化程序性能而对指
+     * 令序列进行重新排序的一种手段。 第5行的代码创建了一个对象，这一行代码可以分解成3个操作：
      *
-     * 问题出现的顺序:
-     * 1.线程A, 发现对象未实例化, 准备开始实例化
-     * 2.由于编译器优化了程序指令, 允许对象在构造函数未调用完前, 将共享变量的引用指向部分构造的对象, 虽然对象未完全实例化, 但已经不为null了.
-     * 3.线程B, 发现部分构造的对象已不是null, 则直接返回了该对象.
+     * memory = allocate();　　// 1：分配对象的内存空间
+     * ctorInstance(memory);　// 2：初始化对象
+     * instance = memory;　　// 3：设置instance指向刚分配的内存地址
      *
-     * 解决办法:
-     * 可以将instance声明为volatile，即 private volatile static Singleton instance
-     * 在线程B读一个volatile变量后，线程A在写这个volatile变量之前，所有可见的共享变量的值都将立即变得对线程B可见。
+     * 根源在于代码中的2和3之间，可能会被重排序。例如：
+     *
+     * memory = allocate();　　// 1：分配对象的内存空间
+     * instance = memory;　　// 3：设置instance指向刚分配的内存地址
+     * // 注意，此时对象还没有被初始化！
+     * ctorInstance(memory);　// 2：初始化对象
+     *
+     * 这在单线程环境下是没有问题的，但在多线程环境下会出现问题：假如有两个线程A和B，当B线程运行到B2位置的时候，B线程会看到一个还没有被初始化的对象。
+     * A2和A3的重排序不影响线程A的最终结果，但会导致线程B在B2处判断出instance不为空，线程B接下来将访问instance引用的对象。此时，线程B将会访问
+     * 到一个还未初始化的对象。 所以只需要做一点小的修改（把instance声明为volatile型），就可以实现线程安全的延迟初始化。因为被volatile关键字
+     * 修饰的变量是被禁止重排序的。
      */
 }
