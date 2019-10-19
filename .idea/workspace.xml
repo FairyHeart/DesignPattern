@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c2f6c1a-17b9-4f54-a0a8-2b0ebbc7b27b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/原型模式/ProtoSubType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/原型模式/ProtoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/原型模式/PrototypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/mobile/AppleMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/mobile/HuaWeiMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/mobile/IMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/mobile/OppoMobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/AppleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/HuaWeiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/IFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/OppoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/ChinaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/IFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/USAFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/工厂方法模式/简单工厂模式/MobileSimpleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/单列模式/SingletonTest$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/单列模式/SingletonTest$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/单列模式/SingletonTest$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/单列模式/SingletonTest$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/单列模式/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/单列模式/SingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/原型模式/ProtoType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/原型模式/ProtoType.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,16 +26,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/原型模式/PrototypeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/IFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/HuaWeiFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/AppleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/简单工厂模式/MobileSimpleFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/mobile/HuaWeiMobile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/mobile/AppleMobile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/IFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/ChinaFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,28 +116,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/原型模式/ProtoSubType.java">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/USAFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="2" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/原型模式/ProtoType.java">
+        <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/FactoryMethodTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="342">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#731#739#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +142,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -90,8 +162,28 @@
         <option value="$PROJECT_DIR$/src/com/单列模式/懒汉式/Singleton.java" />
         <option value="$PROJECT_DIR$/src/com/单列模式/SingletonTest.java" />
         <option value="$PROJECT_DIR$/src/com/原型模式/ProtoSubType.java" />
-        <option value="$PROJECT_DIR$/src/com/原型模式/PrototypeTest.java" />
         <option value="$PROJECT_DIR$/src/com/原型模式/ProtoType.java" />
+        <option value="$PROJECT_DIR$/src/com/原型模式/PrototypeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/FactoryMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/IMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/HuaWeiMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/AppleMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/SamsungMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/mobile/SamsungMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/IFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/简单工厂模式/MobileFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/HuaWeiFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/mobile/OppoMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/mobile/HuaWeiMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/mobile/AppleMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/OppoFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/简单工厂模式/MobileSimpleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/mobile/IMobile.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/AppleFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/IFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/ChinaFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/USAFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/工厂方法模式/FactoryMethodTest.java" />
       </list>
     </option>
   </component>
@@ -109,8 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,27 +224,46 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="单列模式" type="462c0819:PsiDirectoryNode" />
+              <item name="工厂方法模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="单列模式" type="462c0819:PsiDirectoryNode" />
-              <item name="饿汉式" type="462c0819:PsiDirectoryNode" />
+              <item name="工厂方法模式" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="原型模式" type="462c0819:PsiDirectoryNode" />
+              <item name="工厂方法模式" type="462c0819:PsiDirectoryNode" />
+              <item name="工厂方法模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="工厂方法模式" type="462c0819:PsiDirectoryNode" />
+              <item name="抽象工程模式" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="工厂方法模式" type="462c0819:PsiDirectoryNode" />
+              <item name="简单工厂模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,11 +281,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.工厂方法模式.抽象工程模式" />
+      <recent name="com.工厂方法模式.工厂方法模式" />
+      <recent name="com.工厂方法模式.mobile" />
+      <recent name="com.工厂方法模式" />
       <recent name="com.单列模式.枚举" />
-      <recent name="com.单列模式.内部类" />
-      <recent name="com.单列模式.懒汉式" />
-      <recent name="com.单列模式.饿汉式" />
-      <recent name="com.单列模式" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,13 +300,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrototypeTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.FactoryMethodTest">
+    <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.工厂方法模式.FactoryMethodTest" />
       <module name="DesignPattern" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.工厂方法模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -256,13 +368,14 @@
     </configuration>
     <list>
       <item itemvalue="Application.SingletonTest" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Singleton" />
       <item itemvalue="Application.Singleton (1)" />
       <item itemvalue="Application.PrototypeTest" />
+      <item itemvalue="Application.FactoryMethodTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryMethodTest" />
         <item itemvalue="Application.PrototypeTest" />
         <item itemvalue="Application.SingletonTest" />
         <item itemvalue="Application.Singleton" />
@@ -282,17 +395,20 @@
       <updated>1570804625577</updated>
       <workItem from="1570804627393" duration="3260000" />
       <workItem from="1570845008434" duration="2591000" />
-      <workItem from="1570855598071" duration="7607000" />
+      <workItem from="1570855598071" duration="8302000" />
+      <workItem from="1571299099081" duration="644000" />
+      <workItem from="1571457028332" duration="6059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13458000" />
+    <option name="totallyTimeSpent" value="20856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,13 +417,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32953367" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25484765" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19759926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39981532" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.28070176" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.28070176" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -397,37 +513,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/原型模式/PrototypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/原型模式/ProtoType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="380">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#731#739#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/原型模式/ProtoSubType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="2" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="342">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/原型模式/PrototypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/mobile/SamsungMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/FactoryMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/OppoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/mobile/OppoMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/mobile/IMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/mobile/HuaWeiMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/mobile/AppleMobile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/简单工厂模式/MobileSimpleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/IFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/AppleFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/HuaWeiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/FactoryMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/IFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/ChinaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/USAFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
