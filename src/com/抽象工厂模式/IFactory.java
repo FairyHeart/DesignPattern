@@ -1,4 +1,4 @@
-package com.工厂方法模式.抽象工程模式;
+package com.抽象工厂模式;
 
 import com.工厂方法模式.mobile.IMobile;
 

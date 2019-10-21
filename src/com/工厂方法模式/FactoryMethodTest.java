@@ -4,8 +4,6 @@ import com.工厂方法模式.mobile.IMobile;
 import com.工厂方法模式.工厂方法模式.AppleFactory;
 import com.工厂方法模式.工厂方法模式.HuaWeiFactory;
 import com.工厂方法模式.工厂方法模式.IFactory;
-import com.工厂方法模式.抽象工程模式.ChinaFactory;
-import com.工厂方法模式.抽象工程模式.USAFactory;
 import com.工厂方法模式.简单工厂模式.MobileSimpleFactory;
 
 /**
@@ -33,19 +31,6 @@ public class FactoryMethodTest {
         IMobile appleMobile2 = appleFactory.createMobile();
         appleMobile2.show();
 
-        //抽象工厂模式
-        System.out.println("\n抽象工厂模式:");
-        com.工厂方法模式.抽象工程模式.IFactory chinaFactory = new ChinaFactory();
-        IMobile huaWeiMobile3 = chinaFactory.createHuaWeiMobile();
-        huaWeiMobile3.show();
-        IMobile appleMobile3 = chinaFactory.createAppleMobile();
-        appleMobile3.show();
-
-        com.工厂方法模式.抽象工程模式.IFactory usaFactory = new USAFactory();
-        IMobile huaWeiMobile4 = usaFactory.createHuaWeiMobile();
-        huaWeiMobile4.show();
-        IMobile appleMobile4 = usaFactory.createAppleMobile();
-        appleMobile4.show();
     }
 
 }
