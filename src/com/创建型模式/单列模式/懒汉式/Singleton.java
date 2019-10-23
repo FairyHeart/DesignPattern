@@ -37,7 +37,7 @@ public class Singleton {
     /**
      * 3.单例模式懒汉式[线程不安全，不可用]
      * <p>
-     * 虽然加了锁，但是等到第一个线程执行完instance=new SingletonTest()跳出这个锁时，另一个进入if语句的线程同样会实例化另外一个Singleton对象，线程不安全的原理跟3类似。
+     * 虽然加了锁，但是等到第一个线程执行完instance=new Singleton()跳出这个锁时，另一个进入if语句的线程同样会实例化另外一个Singleton对象
      */
     private static Singleton instance3;
 
