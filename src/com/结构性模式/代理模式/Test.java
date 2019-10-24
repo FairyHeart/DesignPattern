@@ -6,8 +6,16 @@ package com.结构性模式.代理模式;
 public class Test {
 
     public static void main(String[] args) {
-        IMarket market = new MarketProxy();
-        System.out.println(market.buyBag().toString());
+        //静态代理
+        System.out.println("静态代理:");
+        IPublisher proxy = new DangDangProxy();
+        proxy.sellBook();
+
+        //动态代理
+        System.out.println("\n动态代理:");
+        DangDangHandler handler = new DangDangHandler();
+        IPublisher proxy2 = (IPublisher) handler.newProxyInstance(new XinHuaPublisher());
+        proxy2.sellBook();
     }
 
 }

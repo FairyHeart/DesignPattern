@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c2f6c1a-17b9-4f54-a0a8-2b0ebbc7b27b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/watch/AppleWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/watch/HuaWeiWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/watch/IWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/结构性模式/代理模式/IPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/结构性模式/代理模式/XinHuaPublisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/ChinaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/ChinaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/IFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/IFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/USAFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/USAFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/mobile/AppleMobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/mobile/AppleMobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/mobile/HuaWeiMobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/mobile/HuaWeiMobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/mobile/OppoMobile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/创建型模式/抽象工厂模式/mobile/OppoMobile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/ChinaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/ChinaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/IFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/IFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/USAFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/USAFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/AppleMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/AppleMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/HuaWeiMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/HuaWeiMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/OppoMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/OppoMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/结构性模式/代理模式/IMarket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/结构性模式/代理模式/JapanMarket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/结构性模式/代理模式/LVBag.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/结构性模式/代理模式/MarketProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPattern/com/结构性模式/代理模式/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPattern/com/结构性模式/代理模式/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/结构性模式/代理模式/IMarket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/结构性模式/代理模式/JapanMarket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/结构性模式/代理模式/LVBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/结构性模式/代理模式/MarketProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/结构性模式/代理模式/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/结构性模式/代理模式/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,12 +31,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/watch/AppleWatch.java">
+        <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="11" />
+            <state relative-caret-position="399">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/IPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/XinHuaPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#153#154#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
               </folding>
             </state>
@@ -47,95 +62,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/IFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="20" />
+            <state relative-caret-position="532">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/IMobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/AppleMobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/watch/IWatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/HuaWeiMobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/OppoMobile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/ChinaFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/USAFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="366">
+              <caret line="40" selection-start-line="6" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1002#1003#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/watch/HuaWeiWatch.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/reflect/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="11" />
+            <state relative-caret-position="244">
+              <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -157,11 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/OppoFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/工厂方法模式/简单工厂模式/MobileSimpleFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/工厂方法模式/mobile/IMobile.java" />
-        <option value="$PROJECT_DIR$/src/com/工厂方法模式/工厂方法模式/AppleFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/IFactory.java" />
         <option value="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/ChinaFactory.java" />
         <option value="$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/USAFactory.java" />
         <option value="$PROJECT_DIR$/src/com/工厂方法模式/FactoryMethodTest.java" />
@@ -196,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/JapanMarket.java" />
         <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/IMarket.java" />
         <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/MarketProxy.java" />
-        <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/Test.java" />
         <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/LVBag.java" />
         <option value="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/HuaWeiMobile.java" />
         <option value="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/mobile/AppleMobile.java" />
@@ -208,6 +163,12 @@
         <option value="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/USAFactory.java" />
         <option value="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/watch/IWatch.java" />
         <option value="$PROJECT_DIR$/src/com/创建型模式/抽象工厂模式/IFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/IBook.java" />
+        <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/IPublisher.java" />
+        <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/XinHuaPublisher.java" />
+        <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangProxy.java" />
+        <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangHandler.java" />
       </list>
     </option>
   </component>
@@ -249,24 +210,15 @@
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="创建型模式" type="462c0819:PsiDirectoryNode" />
+              <item name="结构性模式" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="创建型模式" type="462c0819:PsiDirectoryNode" />
-              <item name="抽象工厂模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="创建型模式" type="462c0819:PsiDirectoryNode" />
-              <item name="抽象工厂模式" type="462c0819:PsiDirectoryNode" />
-              <item name="watch" type="462c0819:PsiDirectoryNode" />
+              <item name="结构性模式" type="462c0819:PsiDirectoryNode" />
+              <item name="代理模式" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="FactoryMethodTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.工厂方法模式.FactoryMethodTest" />
       <module name="DesignPattern" />
@@ -364,12 +316,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.结构性模式.代理模式.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.创建型模式.抽象工厂模式.Test" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.结构性模式.代理模式.*" />
+          <option name="PATTERN" value="com.创建型模式.抽象工厂模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -377,12 +329,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.创建型模式.抽象工厂模式.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.结构性模式.代理模式.Test" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.创建型模式.抽象工厂模式.*" />
+          <option name="PATTERN" value="com.结构性模式.代理模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,8 +351,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.FactoryMethodTest" />
         <item itemvalue="Application.PrototypeTest" />
         <item itemvalue="Application.SingletonTest" />
@@ -428,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32800000" />
+    <option name="totallyTimeSpent" value="36421000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -509,13 +461,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/ChinaFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/FactoryMethodTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/工厂方法模式/抽象工程模式/USAFactory.java" />
-    <entry file="file://$PROJECT_DIR$/DesignPattern.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/创建型模式/建造者模式/Mobile.java" />
     <entry file="file://$PROJECT_DIR$/src/com/创建型模式/建造者模式/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -640,53 +585,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/行为型模式/解释器模式/Test.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/MarketProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/JapanMarket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/LVBag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/IMarket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/创建型模式/建造者模式/GuestRoom.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -818,6 +716,107 @@
           <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/IMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/MarketProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/JapanMarket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/LVBag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/IPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/XinHuaPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/结构性模式/代理模式/DangDangHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="40" selection-start-line="6" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
           </folding>
         </state>
       </provider>
