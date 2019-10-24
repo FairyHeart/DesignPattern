@@ -6,6 +6,6 @@ package com.创建型模式.抽象工厂模式.mobile;
 public class HuaWeiMobile implements IMobile {
     @Override
     public void show() {
-        System.out.println("品牌：HuaWei");
+        System.out.println("HuaWei手机");
     }
 }

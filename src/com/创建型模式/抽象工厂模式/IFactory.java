@@ -1,19 +1,20 @@
 package com.创建型模式.抽象工厂模式;
 
-import com.创建型模式.工厂方法模式.mobile.IMobile;
+
+import com.创建型模式.抽象工厂模式.mobile.IMobile;
+import com.创建型模式.抽象工厂模式.watch.IWatch;
 
 /**
- * 抽象手机工厂，提供不同型号的手机的生产方法
+ * 抽象工厂，提供不同型号的手机和手表的生产方法
  */
 public interface IFactory {
     /**
-     * 生产华为手机
+     * 生产手机
      */
-    IMobile createHuaWeiMobile();
+    IMobile createMobile();
 
     /**
-     * 生产Apple手机
+     * 生产手表
      */
-    IMobile createAppleMobile();
-
+    IWatch createWatch();
 }

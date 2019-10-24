@@ -7,6 +7,6 @@ package com.创建型模式.抽象工厂模式.mobile;
 public class AppleMobile implements IMobile {
     @Override
     public void show() {
-        System.out.println("品牌：Apple");
+        System.out.println("Apple手机");
     }
 }
